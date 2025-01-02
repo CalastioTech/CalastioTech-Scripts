@@ -1,4 +1,4 @@
-#!/bin/bash
+ss#!/bin/bash
 
 # Create a temporary file
 temp_file=$(mktemp)

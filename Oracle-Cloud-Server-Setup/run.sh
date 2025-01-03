@@ -16,6 +16,10 @@ sudo apt install docker.io docker-compose -y
 echo "🏠 Installing CasaOS..."
 curl -fsSL https://get.casaos.io | sudo bash
 
+# Restart Docker
+echo "🔄 Restarting Docker service..."
+sudo systemctl restart docker
+
 # Create a temporary file
 temp_file=$(mktemp)
 
